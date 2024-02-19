@@ -7,7 +7,6 @@ $\huge{y = ax + b + \epsilon} $
 $\huge{\epsilon \sim N(0, \sigma^{2})}$ 
 
 ## The Algorithm
-## The Algorithm
 * Initialize the point $\theta_{0}$ from an arbitrary initial distribution.
 * For $i = 1, 2, \ldots, N$, do:
   * Sample a candidate point $\theta$ from a proposal distribution.\
