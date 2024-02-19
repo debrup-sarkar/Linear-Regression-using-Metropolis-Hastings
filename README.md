@@ -17,7 +17,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 
   * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set\
     ```latex
-    $\theta^{i} = \begin{cases} \theta^* & \text{if } \alpha_{i} \ge u \\ \theta_{(i-1)} & \text{otherwise} \end{cases}$
+    $\theta^{i} = \begin{cases} \theta^* & \text{if } \alpha_{i} \ge u \\ {\theta_{(i-1)}} & \text{otherwise} \end{cases}$
 
 
 
