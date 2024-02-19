@@ -10,7 +10,8 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 * Initialize the point $\\mathbf{\theta}_{0}$ from an arbitrary initial distribution.
 * For $i = 1, 2, \ldots, N$, do:
   * Sample a candidate point $\theta$ from a proposal distribution:\
-    $\mathbf{\theta^*} \mathrel{\sim} {q}(\mathbf{\theta^*} | \mathbf{\theta}^{i-1})$
+    $\huge{mathbf{\theta^*}}
+    \mathbf{\theta^*} \mathrel{\sim} {q}(\mathbf{\theta^*} | \mathbf{\theta}^{i-1})$
   * Evaluate the acceptance probability\
     $\huge{R = {\exp(\phi(\theta^{(i-1)}) - \phi(\theta^*))} \frac{q(\theta^{(i-1)}) | q(\theta^{\*}) }{q(\theta^{\*}) | q(\theta^{(i-1)})}}$\
     $\huge{\alpha_{i} = \min\\{1, R\\}}$
