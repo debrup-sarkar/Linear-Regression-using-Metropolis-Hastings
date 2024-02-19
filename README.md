@@ -17,8 +17,13 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 
   * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set\
     \[
-    A = B
-    \]
+    f(x,y) = \left\\{
+    \begin{aligned}
+    \theta^{*} &\text{if} u \le \alpha_{i} \\\\\\\
+    \theta^{i-1} &\text{otherwise}
+    end{aligned}
+    \right.
+    \\]
 
 
 
