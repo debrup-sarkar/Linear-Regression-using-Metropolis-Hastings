@@ -15,12 +15,14 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
     $\huge{R = {\exp(\phi(\theta^{(i-1)}) - \phi(\theta^*))} \frac{q(\theta^{(i-1)}) | q(\theta^{\*}) }{q(\theta^{\*}) | q(\theta^{(i-1)})}}$\
     $\huge{\alpha_{i} = \min\\{1, R\\}}$\
 
-  * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set
-    f(x) = \begin{cases} 
-      0 & \text{if } x < 0 \\
-      x & \text{if } x \geq 0 
-    \end{cases}
-    
+  * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set\
+    \\[
+    f(x,y) =
+  \begin{cases}
+    0 &\text{if } (x,y) \in \vect{I} \land y \ge x\\\\\\\\
+    1 &\text{if } (x,y) \in \vect{I} \land y < x
+  \end{cases}
+\\]    
 
 
 
