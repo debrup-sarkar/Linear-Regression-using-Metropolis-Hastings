@@ -12,7 +12,8 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
   * Sample a candidate point $\theta$ from a proposal distribution.\
     $\huge{\theta^* \mathrel{\sim} \mathcal{q}(\theta^* | \theta^{i-1})}$
   * Evaluate the acceptance probability\
-    $\alpha_{i} = \min\bigl\{1, R\bigr\}$
+    $\huge{\alpha_{i} = \min\\{1, R\\}}$
+    
 
 
 
