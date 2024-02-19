@@ -16,6 +16,7 @@ The the algorithm for parameter estimation by this method has been explained in 
     \mathbf{\theta^*} \mathrel{\sim} {q}(\mathbf{\theta^*} | \mathbf{\theta}^{i-1})
   * Evaluate the acceptance probability\
     $\huge{R = {\exp(\phi(\theta^{(i-1)}) - \phi(\theta^*))} \frac{q(\theta^{(i-1)}) | q(\theta^{\*}) }{q(\theta^{\*}) | q(\theta^{(i-1)})}}$\
+    $\huge{\text(where ) \phi \text(is the energy function given as) \phi_{T}(\theta) = -log p(y_{i:T} | \theta) - log p(\theta)} $
     $\huge{\alpha_{i} = \min\\{1, R\\}}$
 
   * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set\
