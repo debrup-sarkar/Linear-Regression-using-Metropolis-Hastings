@@ -9,7 +9,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 ## The algorithm
 * Initialize the point $\theta_{0}$ from an arbitrary initial distribution.
 * For $i = 1, 2, \ldots, N$, do:
-  * Sample a candidate point $\theta$ from a proposal distribution.\
+  * Sample a candidate point $\theta$ from a proposal distribution:\
     $\huge{\theta^* \mathrel{\sim} \mathcal{q}(\theta^* | \theta^{i-1})}$
   * Evaluate the acceptance probability\
     $\huge{R = {\exp(\phi(\theta^{(i-1)}) - \phi(\theta^*))} \frac{q(\theta^{(i-1)}) | q(\theta^{\*}) }{q(\theta^{\*}) | q(\theta^{(i-1)})}}$\
