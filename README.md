@@ -17,7 +17,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 
   * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set\
     $\huge{\theta_i = theta^*$ if $\alpha_i \ge \text{u}}$
-    $\theta_i = theta^{(i-1)} otherwise $  
+    $\theta_i = theta^{(i-1)} \text{ otherwise} $  
    
 
 
