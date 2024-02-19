@@ -16,15 +16,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
     $\huge{\alpha_{i} = \min\\{1, R\\}}$
 
   * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set\
-    $
-    f(x,y) = \left\\{
-    \begin{aligned}
-    \theta^{*} &\text{if} u \le \alpha_{i} \\\\\\\
-    \theta^{i-1} &\text{otherwise}
-    end{aligned}
-    \right.
-    $
-
+    $ \theta^{i} = \begin{cases} \theta^* & \text{if} \alpha_i \ge u \\ {\theta_{(i-1)}} & \text{otherwise} \end{cases}$
 
 
 
