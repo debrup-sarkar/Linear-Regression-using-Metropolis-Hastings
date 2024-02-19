@@ -6,9 +6,9 @@ The Metropolis-Hastings algorithm is a Markov Chain Monte Carlo (MCMC) method us
 
 In linear regression, we model the relationship between the independent variable \( x \) and the dependent variable \( y \) using the equation:
 
-$$
+
 \[ y = a + bx + \epsilon \]
-$$
+
 where:
 - \( y \) is the dependent variable
 - \( x \) is the independent variable
