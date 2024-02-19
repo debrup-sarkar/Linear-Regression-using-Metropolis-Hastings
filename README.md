@@ -17,7 +17,11 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 
   * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set\
     $\huge{\theta_{i} = theta^* \text{ if } \alpha_i \ge \text{u}}$ \
-    $\huge{\theta_i = theta^{(i-1)} \text{ otherwise}} $  
+    $\huge{\theta_i = theta^{(i-1)} \text{ otherwise}} $
+
+## Referances
+
+[1] Särkkä S, Svensson L. Bayesian filtering and smoothing. Cambridge university press; 2023 May 31. [Link](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=bfb33c01461fe622c2f44f147822e95cea6fa5d0)
    
 
 
