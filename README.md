@@ -10,4 +10,4 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 * Initialize the point $\theta_{0}$ from an arbitrary initial distribution.
 * For i = 1,2,......,N do \
   1.Sample a candidate point **$\theta^{*}$** from a proposal distribution.
-  $\huge{\theta^{*} ~ q(\theta^{*} /| \theta^{i-1})}$
+  $\theta^{*} ~ q(\theta^{*} /| \theta^{i-1}$
