@@ -13,7 +13,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
     $\huge{\theta^* \mathrel{\sim} \mathcal{q}(\theta^* | \theta^{i-1})}$
   * Evaluate the acceptance probability\
     $\huge{\alpha_{i} = \min\\{1, R\\}}$\
-    R = \exp(\phi_{T}(\theta^{i-1}) - \phi_{T}(\theta^*)) \frac{q(\theta^{(i-1)} | \theta^{*})}{q(\theta^{*} | \theta^{(i-1)})}
+    $R = \exp(A)$
 
     
 
