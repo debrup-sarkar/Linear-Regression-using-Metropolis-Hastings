@@ -16,7 +16,9 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
     $\huge{\alpha_{i} = \min\\{1, R\\}}$
 
   * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set\
+    ```latex
     $\theta^{i} = \begin{cases} \theta^* & \text{if } \alpha_{i} \geq u \\ \theta_{(i-1)} & \text{otherwise} \end{cases}$
+
 
 
 
