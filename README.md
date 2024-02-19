@@ -16,13 +16,9 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
     $\huge{\alpha_{i} = \min\\{1, R\\}}$\
 
   * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set\
-    \\[
-    f(x,y) =
-  \begin{cases}
-    0 &\text{if } (x,y) \in \vect{I} \land y \ge x\\\\\\\\
-    1 &\text{if } (x,y) \in \vect{I} \land y < x
-  \end{cases}
-\\]    
+    \[
+    A = B
+    \]
 
 
 
