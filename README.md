@@ -16,8 +16,8 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
     $\huge{\alpha_{i} = \min\\{1, R\\}}$
 
   * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set\
-    $\theta_i = theta^*$ if $\alpha_i \ge u$\
-    $\theta_i = theta^{(i-1)} otherwise $  
+    $\huge{\theta_i = theta^*$ if $\alpha_i \ge u}$\
+    $\huge{\theta_i = theta^{(i-1)} otherwise} $  
    
 
 
