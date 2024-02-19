@@ -8,8 +8,3 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 
 ## The Algorithm
 * Initialize the point $\theta_{0}$ from an arbitrary distribution with subnumbers:
-  ```html
-  <ol>
-    <li>Subnumbered item</li>
-    <li>Another subnumbered item</li>
-  </ol>
