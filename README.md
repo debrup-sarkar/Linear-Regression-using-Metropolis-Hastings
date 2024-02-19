@@ -16,7 +16,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
     $\huge{\alpha_{i} = \min\\{1, R\\}}$
 
   * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set\
-    \[{\delta} = \begin{cases} 1 \text{if} l = m \\  0 \ text{if} l \neq m \end{cases}\]
+    $\theta_i = theta^*$ if $\alpha_i \ge u$ 
    
 
 
