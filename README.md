@@ -22,7 +22,9 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 
 ## References
 
-[1] Särkkä S, Svensson L. Bayesian filtering and smoothing. Cambridge university press; 2023 May 31. [Link](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=bfb33c01461fe622c2f44f147822e95cea6fa5d0) 
+[1] Särkkä S, Svensson L. Bayesian filtering and smoothing. Cambridge university press; 2023 May 31.[Link](https://books.google.co.in/books?hl=en&lr=&id=utXBEAAAQBAJ&oi=fnd&pg=PP1&dq=bayesian+filtering+and+smoothing&ots=GX-dLQ7sTN&sig=aZTp8fQkWR6yzu1NrCQUvIWnYeA&redir_esc=y#v=onepage&q=bayesian%20filtering%20and%20smoothing&f=false) 
+
+
 
 
 
