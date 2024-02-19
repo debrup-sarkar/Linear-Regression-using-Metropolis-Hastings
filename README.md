@@ -12,7 +12,7 @@ The the algorithm for parameter estimation by this method has been explained in 
 * Initialize the point $\\mathbf{\theta}_{0}$ from an arbitrary initial distribution.
 * For $i = 1, 2, \ldots, N$, do:
   * Sample a candidate point $\theta$ from a proposal distribution:\
-    ${\theta^*} \mathrel{\sim} \mathcal{q}(\mathbf{\theta^*} | \mathbf{\theta}^{i-1})$
+    $\theta^* \mathrel{\sim} \text{q }(\theta^* | \theta^{(i-1)})$
 
   * Evaluate the acceptance probability\
     $\huge{R = {\exp(\phi(\theta^{(i-1)}) - \phi(\theta^*))} \frac{q(\theta^{(i-1)}) | q(\theta^{\*}) }{q(\theta^{\*}) | q(\theta^{(i-1)})}}$\
