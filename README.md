@@ -13,7 +13,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
     $\huge{\theta^* \mathrel{\sim} \mathcal{q}(\theta^* | \theta^{i-1})}$
   * Evaluate the acceptance probability\
     $\huge{R = {\exp(\phi(\theta^{(i-1)}) - \phi(\theta^*))} \frac{q(\theta^{(i-1)}) | q(\theta^{\*}) }{q(\theta^{\*}) | q(\theta^{(i-1)})}}$\
-    $\huge{\alpha_{i} = \min\\{1, R\\}}$\
+    $\huge{\alpha_{i} = \min\\{1, R\\}}$
 
   * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set\
     $
