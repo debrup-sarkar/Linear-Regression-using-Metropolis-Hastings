@@ -11,5 +11,5 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 * Initialize the point $\theta_{0}$ from an arbitrary initial distribution.
 * For $i = 1, 2, \ldots, N$, do:
   * Sample a candidate point $\theta^{*}$ from a proposal distribution.
-  * $\theta^{*} \sim q(\theta^{*} \mid \theta^{i-1})$
+    $\huge{\theta^{*}}$
 
