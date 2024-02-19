@@ -1,12 +1,13 @@
 # Linear Regression using Metropolis Hastings Algorithm
 
-The Metropolis-Hastings algorithm is a **Markov Chain Monte Carlo (MCMC)** method used for sampling from a probability distribution, particularly useful for estimating parameters in Bayesian inference problems. It iteratively proposes new samples based on a proposal distribution, accepting or rejecting them based on an acceptance ratio calculated from the likelihood of the proposed and current samples.
+The Metropolis-Hastings algorithm is a **Markov Chain Monte Carlo (MCMC)** method used for sampling from a probability distribution, particularly useful for estimating parameters in Bayesian inference problems. It iteratively proposes new samples based on a proposal distribution, accepting or rejecting them based on an acceptance ratio calculated from the likelihood of the proposed and current samples. 
 
 ## The model
 $\huge{y = ax + b + \epsilon} $  
 $\huge{\epsilon \sim N(0, \sigma^{2})}$ 
 
 ## The algorithm
+The the algorithm for parameter estimation by this method has been explained in Bayesian filtering and smoothing by Särkkä and Svensson [1].
 * Initialize the point $\\mathbf{\theta}_{0}$ from an arbitrary initial distribution.
 * For $i = 1, 2, \ldots, N$, do:
   * Sample a candidate point $\theta$ from a proposal distribution:\
