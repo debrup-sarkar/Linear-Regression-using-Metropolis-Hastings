@@ -4,6 +4,6 @@ The Metropolis-Hastings algorithm is a Markov Chain Monte Carlo method used for 
 
 ## The model
 $y = ax + b + \epsilon $  
-<span style="font-size: larger"> $\epsilon \sim N(0, \sigma^{2})$ </ font-size: larger >
+<span style="font-size: larger"> $\epsilon \sim N(0, \sigma^{2})$ 
 
 
