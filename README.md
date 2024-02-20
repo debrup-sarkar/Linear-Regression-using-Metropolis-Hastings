@@ -26,8 +26,8 @@ The the algorithm for parameter estimation by this method has been explained in 
     $\huge{\alpha_{i} = \min\\{1, R\\}}$
 
   * Generate a uniform random variable $u \mathrel{\sim} \mathcal{U}(0,1)$ and set\
-    $\huge{\theta_{i} = theta^* \text{ if } \alpha_i \ge \text{u}}$ \
-    $\huge{\theta_i = theta^{(i-1)} \text{ otherwise}} $
+    $\huge{\theta_{i} = \theta^* \text{ if } \alpha_i \ge \text{u}}$ \
+    $\huge{\theta_i = \theta^{(i-1)} \text{ otherwise}} $
 
 ## References
 
