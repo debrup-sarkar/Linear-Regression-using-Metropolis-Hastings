@@ -34,7 +34,7 @@ The the algorithm for parameter estimation by this method has been explained in 
 [1] [Särkkä S, Svensson L. Bayesian filtering and smoothing. Cambridge university press; 2023 May 31](https://books.google.co.in/books?hl=en&lr=&id=utXBEAAAQBAJ&oi=fnd&pg=PP1&dq=bayesian+filtering+and+smoothing&ots=GX-dLQ7sTN&sig=aZTp8fQkWR6yzu1NrCQUvIWnYeA&redir_esc=y#v=onepage&q=bayesian%20filtering%20and%20smoothing&f=false) 
 
 ## See Also
-- [Robust Adaptive Metropolis for parameter estimation in Linear Model](https://github.com/debrup-sarkar/Linear-Regression-using-Robust-Adaptive-Metropolis-MCMC-algorithm-in-MATLAB)
+- [Robust Adaptive Metropolis for parameter estimation in Linear Models](https://github.com/debrup-sarkar/Linear-Regression-using-Robust-Adaptive-Metropolis-MCMC-algorithm-in-MATLAB)
 
 
 
