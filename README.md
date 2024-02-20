@@ -7,7 +7,7 @@ A linear model can be expressed as\
 $\huge{y = {X}^{T}{\theta} + \epsilon} $  
 $\huge{\epsilon \sim N(0, \sigma^{2})}$ 
 
-## The algorithm
+## The Metropolis Hastings algorithm
 The the algorithm for parameter estimation by this method has been explained in chapter 12 of Bayesian filtering and smoothing by Särkkä and Svensson [1].
 * Initialize the point $\\mathbf{\theta}_{0}$ from an arbitrary initial distribution.
 * For $i = 1, 2, \ldots, N$, do:
