@@ -14,9 +14,11 @@ The the algorithm for parameter estimation by this method has been explained in 
   * Sample a candidate point $\theta$ from a proposal distribution:\
     $\huge{\theta^* \mathrel{\sim} \text{q }(\theta^* | \theta^{(i-1)})}$
 
-  * Evaluate the acceptance probability\
+  * Evaluate the acceptance probability
+    
     $\huge{R = {\exp(\phi(\theta^{(i-1)}) - \phi(\theta^*))} \frac{q(\theta^{(i-1)}) | q(\theta^{\*}) }{q(\theta^{\*}) | q(\theta^{(i-1)})}}$\
-    where $\phi$ is the energy function given as:\
+    where $\phi$ is the energy function given as:
+    
     $\huge{\phi_{T}(\theta) = -log (\text{ p}(y_{i:T} | \theta)) - log (\text{ p}(\theta)) }$\
  
     The acceptance probability ($\alpha$):
