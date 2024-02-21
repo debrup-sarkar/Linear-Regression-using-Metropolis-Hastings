@@ -8,7 +8,7 @@ $\huge{y = {X}^{T}{\theta} + \epsilon} $
 $\huge{\epsilon \sim N(0, \sigma^{2})}$ 
 
 ## The Metropolis Hastings algorithm
-The the algorithm for parameter estimation by this method has been explained in chapter 12 of Bayesian filtering and smoothing by Särkkä and Svensson [1].
+The the algorithm for parameter estimation by this method has been explained in chapter 12 of Bayesian filtering and smoothing by Särkkä and Svensson [[1]](https://github.com/debrup-sarkar/Metropolis-Hastings-algorithm-for-parameter-estimation-in-linear-models#references).
 * Initialize the point $\\mathbf{\theta}_{0}$ from an arbitrary initial distribution.
 * For $i = 1, 2, \ldots, N$, do:
   * Sample a candidate point $\theta$ from a proposal distribution:\
