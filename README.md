@@ -16,7 +16,7 @@ The the algorithm for parameter estimation by this method has been explained in 
 
   * Evaluate the acceptance probability
     
-    $\huge{R = {\exp(\phi(\theta^{(i-1)}) - \phi(\theta^*))} \frac{q(\theta^{(i-1)}) | q(\theta^{\*}) }{q(\theta^{\*}) | q(\theta^{(i-1)})}}$\
+    $\huge{R = {\exp(\phi(\theta^{(i-1)}) - \phi(\theta^*))} \frac{q(\theta^{(i-1)} | \theta^{\*}) }{q(\theta^{\*} | \theta^{(i-1)})}}$\
     where $\phi$ is the energy function given as:
     
     $\huge{\phi_{T}(\theta) = -log (\text{ p}(y_{i:T} | \theta)) - log (\text{ p}(\theta)) }$\
